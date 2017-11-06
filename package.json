@@ -1,0 +1,33 @@
+{
+  "name": "simple-caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecfexorg/simple-caching.git"
+  },
+  "keywords": [],
+  "author": "varHarrie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecfexorg/simple-caching/issues"
+  },
+  "homepage": "https://github.com/ecfexorg/simple-caching#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.47"
+  }
+}
